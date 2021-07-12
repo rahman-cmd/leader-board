@@ -6,6 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #E3F1FF;
+    margin: 0 auto;
 }
 main{
     display: flex;
@@ -114,7 +115,7 @@ hr{
 
 /* courses styles */
 .courses{
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
     
