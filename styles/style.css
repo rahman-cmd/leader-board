@@ -29,18 +29,52 @@ hr{
 }
 
 /* Header-Style */
-.header-style{
-    background-color: #562EFF;
-    width: 100%;
+
+
+nav{
     height: 94px;
-    
+    margin: 0;
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-style img{
-    height: 51px;
-    width: 40px;
-    margin-top: 26px;
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
     margin-left: 285px;
+    margin-right: 0;
+}
+
+.logo-text{
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.link{
+    display: flex;
+    align-items: center;
+}
+.link-text{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+
+
+nav img{
+    width: 51px;
+    height: 51px;
+    margin-right: 289px;
 }
 
 /* top players style */
@@ -180,7 +214,6 @@ hr{
             width: 100%;
         }
         .players, .courses{
-            background-color: tomato;
             grid-template-columns:  1fr 1fr;
         }
 }
